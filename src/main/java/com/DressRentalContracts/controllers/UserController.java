@@ -1,7 +1,6 @@
 package com.DressRentalContracts.controllers;
 
 import jakarta.validation.Valid;
-import com.DressRentalContracts.form.SignInForm;
 import com.DressRentalContracts.form.SignUpForm;
 import com.DressRentalContracts.form.EditUserProfileForm;
 import org.springframework.ui.Model;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.security.Principal;
-import java.util.UUID;
 
 @RequestMapping("/user")
 public interface UserController extends BaseController {

@@ -6,8 +6,6 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.Length;
 
-import java.util.UUID;
-
 public record AddClientRatingForm(
         @NotNull(message = "Рейтинг обязателен")
         @Min(value = 1)
