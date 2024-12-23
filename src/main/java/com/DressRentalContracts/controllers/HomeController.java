@@ -8,7 +8,6 @@ import org.springframework.ui.Model;
 public interface HomeController extends BaseController {
     @GetMapping
     String showHomePage(Model model);
-//    @GetMapping("{userId}/{categoryName}/category-dresses")
 }
 
 

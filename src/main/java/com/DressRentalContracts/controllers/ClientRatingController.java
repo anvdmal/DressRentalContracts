@@ -14,17 +14,13 @@ public interface ClientRatingController extends BaseController {
     @GetMapping()
     String showRatingsPage(Model model);
 
-    //    @GetMapping("/{clientId}/create-rating")
     @GetMapping("/{ratingId}/create")
     String showCreateRatingPage(
-//            @PathVariable UUID clientId,
             @PathVariable UUID ratingId,
             Model model);
 
-    //    @PostMapping("/{clientId}/create-rating")
     @PostMapping("/{ratingId}/create")
     String createRating(
-//             @PathVariable UUID clientId,
             @PathVariable UUID ratingId,
             @Valid @ModelAttribute("form") AddClientRatingForm form,
             BindingResult bindingResult,
