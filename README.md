@@ -4,9 +4,9 @@
 
 Примеры прототипов.
 * Прототип страницы аутентификации.
-  ![image](https://github.com/user-attachments/assets/cf48e5dc-0fa4-4c66-9c79-43b939001b36)
+  ![image](https://github.com/user-attachments/assets/03f96216-2e35-4a00-a5d6-c47a05680395)
 * Прототип страницы профиля клиента.
-  ![image](https://github.com/user-attachments/assets/2357f0f9-a6b6-4245-bf56-295535fc78ff)
+  ![image](https://github.com/user-attachments/assets/cf48e5dc-0fa4-4c66-9c79-43b939001b36)
 * Прототип страницы с платьями определенной категории для администратора.
   ![image](https://github.com/user-attachments/assets/6614ef2a-5a2d-41ac-b88a-66460d1646fe)
 * Прототип страницы добавления платья.
